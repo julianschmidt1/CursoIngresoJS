@@ -1,0 +1,12 @@
+primero:
+git clone (repo)
+
+segundo:
+en consola (cd Ctab)
+git add .
+
+tercero:
+git commit -m "comentario del commit"
+
+cuarto:
+git push
