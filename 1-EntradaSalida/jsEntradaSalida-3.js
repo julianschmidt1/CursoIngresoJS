@@ -4,7 +4,7 @@ function mostrar()
 {
 	var nombre;
 	//nombre=elNombre.value;
-	document.getElementById('elNombre').value;
+	document.getElementById('elNombre').value=nombre;
 	alert(nombre);
 }
 
