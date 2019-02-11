@@ -4,69 +4,69 @@ mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
 {	
-	var primerNro;
-	var segundoNro;
-	var suma;
+	var numero1;
+	var numero2;
+	var resultado;
 
-	primerNro=numeroUno.value;
-	segundoNro=numeroDos.value;
-	
-	primerNro=parseInt(primerNro);
-	segundoNro=parseInt(segundoNro);
+	numero1=numeroUno.value;
+	numero2=numeroDos.value;
 
-	suma=primerNro+segundoNro;
+	numero1=parseInt(numero1);
+	numero2=parseInt(numero2);
 
-	alert("El resultado es: "+suma);
+	resultado=numero1+numero2;
+
+	alert("La suma da como resultado: "+resultado);
 }
 
 function restar()
 {
-	var primerNro;
-	var segundoNro;
-	var resta;
+	var numero1;
+	var numero2;
+	var resultado;
 
-	primerNro=numeroUno.value;
-	segundoNro=numeroDos.value;
-	
-	primerNro=parseInt(primerNro);
-	segundoNro=parseInt(segundoNro);
+	numero1=numeroUno.value;
+	numero2=numeroDos.value;
 
-	resta=primerNro-segundoNro;
+	numero1=parseInt(numero1);
+	numero2=parseInt(numero2);
 
-	alert("El resultado es: "+resta);
+	resultado=numero1-numero2;
+
+	alert("La resta da como resultado: "+resultado);
 }
 
 function multiplicar()
 { 
-	var primerNro;
-	var segundoNro;
-	var multi;
+	var numero1;
+	var numero2;
+	var resultado;
 
-	primerNro=numeroUno.value;
-	segundoNro=numeroDos.value;
-	
-	primerNro=parseInt(primerNro);
-	segundoNro=parseInt(segundoNro);
+	numero1=numeroUno.value;
+	numero2=numeroDos.value;
 
-	multi=primerNro*segundoNro;
+	numero1=parseInt(numero1);
+	numero2=parseInt(numero2);
 
-	alert("El resultado es: "+multi);
+	resultado=numero1*numero2;
+
+	alert("La multiplicación da como resultado: "+resultado);
 }
 
 function dividir()
 {
-	var primerNro;
-	var segundoNro;
-	var divi;
+	var numero1;
+	var numero2;
+	var resultado;
 
-	primerNro=numeroUno.value;
-	segundoNro=numeroDos.value;
-	
-	primerNro=parseInt(primerNro);
-	segundoNro=parseInt(segundoNro);
+	numero1=numeroUno.value;
+	numero2=numeroDos.value;
 
-	divi=primerNro/segundoNro;
+	numero1=parseInt(numero1);
+	numero2=parseInt(numero2);
 
-	alert("El resultado es: "+divi);
+	resultado=numero1/numero2;
+
+	alert("La división da como resultado: "+resultado);
 }
 

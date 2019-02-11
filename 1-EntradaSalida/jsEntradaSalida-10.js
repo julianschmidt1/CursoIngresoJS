@@ -8,7 +8,9 @@ function mostrarAumento()
 	var descuento;
 
 	sueldo1=importe.value;
+
 	sueldo1=parseInt(sueldo1);
+	descuento=parseInt(descuento);
 
 	descuento=(sueldo1*25)/100;
 
