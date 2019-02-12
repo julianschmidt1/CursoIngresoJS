@@ -9,7 +9,6 @@ se debe informar si el resultado es el correcto o no.
 var respuesta;
 function comenzar()
 {
-
 	
 
 }//FIN DE LA FUNCIÓN
