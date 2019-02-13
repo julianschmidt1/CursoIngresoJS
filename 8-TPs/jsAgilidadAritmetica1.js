@@ -9,11 +9,46 @@ se debe informar si el resultado es el correcto o no.
 var respuesta;
 function comenzar()
 {
-	
+	var primer=Math.floor((Math.random() * 10) + 1);
+	var segundo=Math.floor((Math.random() * 10) + 1);
+	var operacion=Math.floor((Math.random() * 4) + 1);
+	var suma=1;
+	var resta=2;
+	var divi=3;
+	var multi=4;
+	console.log(operacion);
+	primerNumero.value=primer;
+	segundoNumero.value=segundo;
+
+	if(operacion==1)
+	{
+		operador.value=("Suma");
+	} else {
+		if(operacion==2)
+		{
+			operador.value=("Resta");
+		} else {
+			if(operacion==3)
+			{
+				operador.value=("Division");
+			} else {
+				operador.value=("Multiplicacion");
+			}
+		}
+	}
+
 
 }//FIN DE LA FUNCIÓN
 function Responder()
 {
-	
+	var suma=1;
+	var resta=2;
+	var divi=3;
+	var multi=4;
+
+	if(operador.value=="Suma")
+	{
+		
+	}
 
 }//FIN DE LA FUNCIÓN

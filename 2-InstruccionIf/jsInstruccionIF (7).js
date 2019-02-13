@@ -5,18 +5,20 @@ function mostrar()
 	var estado;
 
 	edad1=edad.value;
-	edad=parseInt(edad);
+	edad1=parseInt(edad1);
 	estado=estadoCivil.value;
 
-	if(edad1>=18)
+	if(estado=="Casado" || estado=="Divorciado")
 	{
-	}
-	else{
-		if(estado=="Casado" || estado=="Divorciado")
+		if(edad1>=18)
 		{
-			alert("Es muy pequeño para NO ser soltero.")
+		}
+		else
+		{
+			alert("Es muy pequeño para NO ser soltero.");
 		}
 	}
+	
 			/*esta parte va al reves, primero if casado
 			y dsp if edad. Sino va a tirar 18 casado 
 			muy joven*/
