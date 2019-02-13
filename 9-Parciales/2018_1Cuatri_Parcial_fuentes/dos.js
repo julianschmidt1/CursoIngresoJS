@@ -7,7 +7,10 @@ function mostrar()
   	precio=elPrecio.value;
 
   	precio=parseInt(precio);
-  	recargo=precio*10/100;
+  	recargo=parseInt(recargo);
+  	preciofinal=parseInt(preciofinal);
+    
+  	recargo=(precio*10)/100;
   	preciofinal=precio+recargo;
 
   	alert("El precio del producto en efectivo es de "+precio+". Con tarjeta tiene un recargo del 10% que seria "+recargo+", costando el final $"+preciofinal);
