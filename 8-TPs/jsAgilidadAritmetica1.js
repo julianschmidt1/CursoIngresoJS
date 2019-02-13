@@ -45,10 +45,26 @@ function Responder()
 	var resta=2;
 	var divi=3;
 	var multi=4;
+	var rta;
+
+	
 
 	if(operador.value=="Suma")
 	{
-		
+		rta=primer+segundo;
+	} else {
+		if(operador.value=="Resta")
+		{
+			rta=primer-segundo;
+		} else {
+			if(operador.value=="Division")
+			{
+				rta=primer/segundo;
+			} else {
+				rta=primer*segundo;
+			}
+		}
 	}
+	rta=respuesta.value;
 
 }//FIN DE LA FUNCIÓN

@@ -1,19 +1,22 @@
 
 function mostrar()
 {
-	var ancho;
-	var largo;
-	var perimetro;
+	var nombre1;
+	var nombre2;
+	var edad1;
+	var edad2;
+	var edades;
 
-	ancho=parseInt(ancho);
-	largo=parseInt(largo);
+	nombre1=elNombre.value;
+	nombre2=elNombre2.value;
+	edad1=laEdad.value;
+	edad2=laEdad2.value;
 
-	ancho=prompt("Ingrese el ancho del rectangulo");
-	largo=prompt("Ingrese el largo del rectangulo");
+	edad1=parseInt(edad1);
+	edad2=parseInt(edad2);
 
-	perimetro=(2*ancho)+(2*largo);
+	edades=edad1+edad2;
 
-	alert("El perimetro es: "+perimetro);
-
+	alert("Ustedes son"+nombre1+" y "+nombre2+",sus edades son "+edad1+edad2+", y la suma de sus edades es de "+edades);
 
 }
