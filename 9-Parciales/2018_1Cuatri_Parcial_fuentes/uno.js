@@ -17,6 +17,6 @@ function mostrar()
 
 	edades=edad1+edad2;
 
-	alert("Ustedes son"+nombre1+" y "+nombre2+",sus edades son "+edad1+edad2+l", y la suma de sus edades es de "+edades);
+	alert("Ustedes son"+nombre1+" y "+nombre2+",sus edades son "+edad1+edad2+", y la suma de sus edades es de "+edades);
 
 }
