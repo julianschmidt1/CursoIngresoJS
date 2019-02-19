@@ -10,7 +10,7 @@ switch(mesDelAño)
 	mensaje=("que comiences bien el año!!!");
 	break;
 	case "Marzo":
-	mensaje=("a clases!!!"):
+	mensaje=("a clases!!!");
 	break;
 	case "Julio":
 	mensaje=("se vienen las vacaciones!!!");
