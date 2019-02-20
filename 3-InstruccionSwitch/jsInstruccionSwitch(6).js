@@ -39,7 +39,10 @@ switch(laHora)
 	break;
 
 	default:
-	alert("La hora no existe.");
+	if (laHora>23) 
+	{
+		alert("La hora no existe.");
+	}
 }
 
 

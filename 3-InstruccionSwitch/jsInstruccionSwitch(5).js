@@ -12,13 +12,13 @@ switch(laHora)
 	case "9":
 	case "10":
 	case "11":
-	alert("Es de mañana.");
+	alert("Es de mañana");
 	break;
+
 	default:
-	alert("Es cualquier momento del dia excepto la mañana.");
+	alert("Es cualquier momento del dia, excepto de mañana.");
 	break;
 }
-
 
 
 }//FIN DE LA FUNCIÓN

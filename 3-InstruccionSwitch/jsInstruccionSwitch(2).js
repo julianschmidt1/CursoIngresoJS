@@ -12,20 +12,19 @@ switch(mesDelAño)
 	case "Abril":
 	case "Mayo":
 	case "Junio":
-	alert("Falta para el invierno");
+	alert("Falta para el invierno.");
 	break;
+
 	case "Julio":
 	case "Agosto":
 	alert("Abrigate que hace frio.");
 	break;
+
 	default:
-	alert("Ya pasamos el frio, ahora calor!!!");
+	alert("Ya pasamos el frio, ahora calor!")
 	break;
 }
-
-alert (mesDelAño);
-
-
+alert ("Es "+mesDelAño);
 
 
 }//FIN DE LA FUNCIÓN
