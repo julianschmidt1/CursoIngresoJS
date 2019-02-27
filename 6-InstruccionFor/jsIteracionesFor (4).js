@@ -1,10 +1,13 @@
 function mostrar()
 {
-	var contador=0;
-	for(i=0;i<contador;i++)
+	var contador=1;
+	for(i=0;i!=contador;i++)
 	{
-		if(contador<)
-		alert(i);
+		if (i!=contador) 
+		{
+			contador=contador++;
+		}
+		console.log(i);
 		break;
 	}
 	
