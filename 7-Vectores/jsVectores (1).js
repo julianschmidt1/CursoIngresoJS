@@ -1,6 +1,39 @@
 function mostrar()
 {
+	var palabra;
+	var palabraSoloLetras="";
+	var palabraInvertida="";
+	palabra=prompt("Ingrese palindromo: ");
+	console.log(palabra.length);
 
+	for(i=0;i<palabra.length;i++)
+	{
+		console.log(palabra[i]);
+		if (palabra[i]==" ") 
+		{
+			continue;
+		}
+		palabraSoloLetras=palabraSoloLetras+palabra[i];
+	}
+	for(i=0;i<palabraSoloLetras.length;i++)
+	{
+		palabraInvertida=palabraSoloLetras[i]+palabraInvertida;
+	}
+
+	console.log(palabraSoloLetras);
+	console.log(palabraInvertida);
+	if (palabraInvertida==palabraSoloLetras) 
+	{
+		alert("La palabra es un palindromo.");
+	} else
+	{
+		alert("ajjaj no pelotudo ahre.");
+	}
+
+}//FIN DE LA FUNCIÓN
+
+
+/*
 	var miArray = new Array();
 
 	miArray[0]=5;
@@ -21,9 +54,4 @@ document.write("El contenido del vector es: <br>");
 
 		document.write("Posicion "+i+"-->"+miArray[i]+"<br>");
 	}
-
-
-
-
-
-}//FIN DE LA FUNCIÓN
+*/
