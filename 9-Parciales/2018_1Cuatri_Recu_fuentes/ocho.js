@@ -1,5 +1,11 @@
 function mostrar()
 {
+
+}
+
+
+
+/*
 	var ingreso;
 	var letra;
 	var letraMaxima;
@@ -68,3 +74,7 @@ function mostrar()
 	alert("La suma de los negativos es de " + sumaNegativos);
 	alert("El numero maximo es " + maximo + " y su letra es " + letraMaxima);
 	alert("El numero minimo es " + minimo + " y su letra es " + letraMinima);
+
+
+
+*/

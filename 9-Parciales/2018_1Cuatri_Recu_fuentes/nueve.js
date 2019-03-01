@@ -1,69 +1,81 @@
 function mostrar()
 {
-	var animal;
+
+}
+
+/*
+		var contador = 0;
 	var peso;
 	var temperatura;
-	var respuesta="si";
-	var pares=0;
-	var masPesado;
-	var pesadoNombre;
-	var pesadoTemperatura;
-	var menosPesado;
+	var nombreAnimal;
+	var nombreAnimalMaxima;
+	var respuesta = 'si';
+	var pares = 0;
+	var promedioPeso = 0;
+	var contadorNegativos = 0;	
+	var maximoPeso = -1;
+	var maximaTemperatura = -31;
+	var maximoMenor = -1;
+	var minimoMenor = 1001;
 
-	while(respuesta=="si")
-	{
-	animal=prompt("Ingrese un animal");
-	respuesta=prompt("Si quiere continuar escriba LITERALMENTE si");
+	while(respuesta !='no'){
+		nombreAnimal = prompt("Ingrese el nombre del animal");
+		while(isNaN(nombreAnimal == true) || nombreAnimal.length == 0){
+			nombreAnimal = prompt("Ingrese una nombre de animal valido");
+		}
 
-	while(isNaN(animal)==true)
-	{
-		peso=prompt("Ingrese la peso: ");
-		peso=parseInt(peso);
+		peso = prompt("Ingrese un peso entre 0 y 1000");
+		peso = parseInt(peso);
 
-		if (peso>=1 || peso<=1000) 
-		{
-			while(isNaN(peso)==false)
-			{
-				temperatura=prompt("Ingrese la temperatura del habitat: ");
-				temperatura=parseInt(temperatura);
-				if (temperatura>=-30 || temperatura<=30) 
-				{
-					while(isNaN(temperatura)==false)
-					{
-						temperatura=temperatura;
-					}
-				}
+		while(isNaN(peso) || peso < 0 || peso > 1000){
+			peso = prompt("Error, ingrese un peso valido");
+			peso = parseInt(peso);
+		}
+
+		promedioPeso = promedioPeso + peso; //sumo los pesos para luego promediarlos
+
+		temperatura = prompt("Ingrese una temperatura");
+		temperatura = parseInt(temperatura);
+
+		while(isNaN(temperatura) || temperatura < -30 || temperatura > 30){
+			temperatura = prompt("Error, ingrese una temperatura valida");
+			temperatura = parseInt(temperatura);
+		}
+		
+		if(temperatura % 2 == 0){
+			pares++;
+		}
+
+		if(temperatura < 0){				
+			contadorNegativos++;
+			if(peso > maximoMenor){
+				maximoMenor = peso;			
 			}
-		}
-	}
-		if (temperatura%2==0) //temperatura par
-		{
-			pares=pares++;
-		}
-		if (peso>masPesado) //mas pesado
-		{
-			masPesado=peso;
-			pesadoTemperatura=temperatura;
-			pesadoNombre=pesadoNombre;
-		}
-		if (temperatura<0) 
-		{
-			var masFrio=masFrio++;
-		}
-		var cantidad=cantidad++;
-		var acumulador=acumulador+peso;
-
-		if (temperatura<0) 
-		{
-			if (peso<menosPesado) 
-			{
-				menosPesado=peso;
+			if(peso < minimoMenor){
+				minimoMenor = peso;
 			}
+		}		
+
+		if(peso > maximoPeso){
+			maximaTemperatura = temperatura;
+			nombreAnimalMaxima = nombreAnimal;
+			maximoPeso = peso;
 		}
+		contador++;
+		respuesta = prompt("Ingrese no para dejar de ingresar");
 	}
-	alert("La cantidad de temperaturas pares es de: "+pares);
-	alert("La cantidad de temperaturas pares es de: "+pares);
-	alert("La cantidad de temperaturas pares es de: "+pares);
-	alert("La cantidad de temperaturas pares es de: "+pares);
-	alert("La cantidad de temperaturas pares es de: "+pares);
-}
+
+	promedioPeso = promedioPeso / contador;
+
+	alert("La cantidad de temperaturas pares es de " + pares);
+	alert("El nombre del animal mas pesado es " + nombreAnimalMaxima + " y su temperatura es " + maximaTemperatura);
+	alert("La cantidad de animales a menos de 0 grados es de: " + contadorNegativos);
+	alert("El promedio de peso de todos los animales es " + promedioPeso);
+	if (maximoMenor == -1){
+		alert("No se ha ingreado ningun animal cuya temperatura sea menor a 0")
+	}else{
+		alert("De los animales cuya temperatura es menor a 0, el peso maximo es " + maximoMenor + " y el minimo es " + minimoMenor);
+	}
+
+
+*/

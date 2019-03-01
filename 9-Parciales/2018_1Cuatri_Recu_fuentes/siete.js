@@ -1,6 +1,12 @@
 function mostrar()
 {
-	var promedio = 0;
+	
+}
+
+
+
+/*
+var promedio = 0;
 	var contador;
 	var ingreso;
 	var sexo;
@@ -45,4 +51,5 @@ function mostrar()
 	alert("El promedio es: " + promedio);
 	alert("La nota mas baja es " + notaBaja + " y el sexo del alumno es " + sexoBajo);
 	alert("Los cantidad de varones cuya nota es mayor o igual a 6 es de: " + cantidadVarones);
-}
+
+*/

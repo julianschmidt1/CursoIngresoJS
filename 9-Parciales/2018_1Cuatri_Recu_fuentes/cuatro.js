@@ -1,5 +1,72 @@
-	function mostrar()
+function mostrar()
 {
+	var numero1;
+	var numero2;
+	var division;
+	var suma;
+	var mensaje;
+
+	numero1=prompt("Ingrese el primer numero: ");
+	numero2=prompt("Ingrese el segundo numero: ");
+	
+
+	if (numero1==numero2) 
+	{
+		alert(numero1 + numero2);
+	} else
+	{
+	if (numero1>numero2) 
+	{
+		division=numero1/numero2;
+		alert("La division es "+division);
+		numero1=parseInt(numero1);
+		numero2=parseInt(numero2);
+	} else
+	{
+		numero1=parseInt(numero1);
+		numero2=parseInt(numero2);
+		suma=numero1+numero2;
+	}
+	if (suma<50) 
+	{
+		alert("La suma es: "+suma+" y es menor a 50.");
+	}
+	}
+}
+//mayor, mayor a 100 10&desc, +50 5% desc, menor a 50 sumar 15%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 	var importe1;
 	var importe2;
 	var importe3;
@@ -57,5 +124,4 @@
 		}
 	}
 	alert("El mayor importe es: "+mayor+". La suma es: "+suma+". El importe final es de: "+importefinal);
-}
-//mayor, mayor a 100 10&desc, +50 5% desc, menor a 50 sumar 15%
+*/

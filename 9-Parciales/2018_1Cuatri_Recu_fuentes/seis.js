@@ -1,5 +1,40 @@
 function mostrar()
 {
+	var hora;
+
+	hora=laHora.value;
+
+	switch(hora)
+	{
+		case hora:
+		if(hora=="12" || hora=="13" || hora=="14" || hora=="15" || hora=="16" || hora=="17" || hora=="18" || hora=="19")
+		{
+			alert("Es de tarde.");
+		} else
+		{
+			alert("Es de noche.");
+		}
+		if (hora>=20 && hora<24) 
+		{
+			alert("A dormir.");
+		}
+		break;
+		default:
+		alert("El horario ingresado no es valido.");
+		break;
+
+	}
+
+
+
+
+
+
+}
+
+
+
+/*
 	var promedio = 0;
 	var contador;
 	var ingreso;
@@ -45,4 +80,6 @@ function mostrar()
 	alert("El promedio es: " + promedio);
 	alert("La nota mas baja es " + notaBaja + " y el sexo del alumno es " + sexoBajo);
 	alert("Los cantidad de varones cuya nota es mayor o igual a 6 es de: " + cantidadVarones);
-}
+
+
+*/

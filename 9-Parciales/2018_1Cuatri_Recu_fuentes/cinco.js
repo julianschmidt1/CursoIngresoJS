@@ -1,6 +1,67 @@
 function mostrar()
 {
-	var descuento;
+	var dia;
+
+	dia=prompt("Ingrese un dia de la semana: ");
+	switch(dia)
+	{
+		case "Lunes":
+		case "Martes":
+		case "Miercoles":
+		case "Jueves":
+		case "Viernes":
+		alert("A trabajar.");
+		break;
+		case "Sabado":
+		case "Domingo":
+		alert("Buen finde.");
+		break;
+		default:
+		alert("El dia ingresado no es valido.");
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/*
+cada habitacion de un hotel tiene un precio. hay promociones segun el tipo de pago.
+si es con tarjeta visa un 10% descuento, si es paypal un 15%, por mercadopago un 10%.
+efectivo 20%, cualquier otro medio 5%
+si compraste el paquete "todoIncluido" y pagas con paypal se te suma un 10% al descuento.
+si pagas en efectivo, tenes varias opciones, el paquete "soloDesayunos" te suma un 10% al descuento.
+si el paquete es "todoincluido" le suma un 15% y para el resto los paquetes no tienen descuento adicional.
+
+*/
+
+
+/*
+var descuento;
 	var tipopago;
 	var paquete;
 
@@ -43,13 +104,7 @@ function mostrar()
 
 
 
-}
-/*
-cada habitacion de un hotel tiene un precio. hay promociones segun el tipo de pago.
-si es con tarjeta visa un 10% descuento, si es paypal un 15%, por mercadopago un 10%.
-efectivo 20%, cualquier otro medio 5%
-si compraste el paquete "todoIncluido" y pagas con paypal se te suma un 10% al descuento.
-si pagas en efectivo, tenes varias opciones, el paquete "soloDesayunos" te suma un 10% al descuento.
-si el paquete es "todoincluido" le suma un 15% y para el resto los paquetes no tienen descuento adicional.
+
+
 
 */
