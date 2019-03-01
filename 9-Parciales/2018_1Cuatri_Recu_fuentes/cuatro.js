@@ -8,23 +8,23 @@ function mostrar()
 
 	numero1=prompt("Ingrese el primer numero: ");
 	numero2=prompt("Ingrese el segundo numero: ");
-	
+
+	numero1=parseInt(numero1);
+	numero2=parseInt(numero2);
 
 	if (numero1==numero2) 
 	{
-		alert(numero1 + numero2);
+		alert(""+numero1 + numero2);
 	} else
 	{
 	if (numero1>numero2) 
 	{
 		division=numero1/numero2;
 		alert("La division es "+division);
-		numero1=parseInt(numero1);
-		numero2=parseInt(numero2);
+		
 	} else
 	{
-		numero1=parseInt(numero1);
-		numero2=parseInt(numero2);
+		
 		suma=numero1+numero2;
 	}
 	if (suma<50) 

@@ -1,10 +1,6 @@
 function mostrar()
 {
-
-}
-
-/*
-		var contador = 0;
+	var contador = 0;
 	var peso;
 	var temperatura;
 	var nombreAnimal;
@@ -17,6 +13,7 @@ function mostrar()
 	var maximaTemperatura = -31;
 	var maximoMenor = -1;
 	var minimoMenor = 1001;
+
 
 	while(respuesta !='no'){
 		nombreAnimal = prompt("Ingrese el nombre del animal");
@@ -71,11 +68,7 @@ function mostrar()
 	alert("El nombre del animal mas pesado es " + nombreAnimalMaxima + " y su temperatura es " + maximaTemperatura);
 	alert("La cantidad de animales a menos de 0 grados es de: " + contadorNegativos);
 	alert("El promedio de peso de todos los animales es " + promedioPeso);
-	if (maximoMenor == -1){
-		alert("No se ha ingreado ningun animal cuya temperatura sea menor a 0")
-	}else{
-		alert("De los animales cuya temperatura es menor a 0, el peso maximo es " + maximoMenor + " y el minimo es " + minimoMenor);
-	}
+	alert("El peso maximo de los animales cuya temperatura es bajo 0 es: "+maximoMenor+" y la minima: "+minimoMenor);
+	
 
-
-*/
+}
