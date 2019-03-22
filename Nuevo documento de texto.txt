@@ -1,0 +1,62 @@
+central de procesos unica dividida en
+unidad de control
+dice que hacer a la unidad arimeticologica
+
+arquitectura
+
+discos
+unidad arimeticologica
+devuelve registros
+
+CPU
+	
+Memoria RAM
+almacena el programa y los datos que se utilizan
+
+Memoria ROM
+tiene el setup, se encuentra en la mother
+
+ROM de control
+contiene instrucciones del microprocesador
+
+Interfaz 
+da o recibe informacion de o del usuario
+
+programacion en binario con tarjetas perforadas
+
+procesador UNIVAC, preponderante en ese entonces
+
+SEGUNDA GEN
+
+transistor: deja pasar energia con una resistencia o no
+
+lenguaje de programacion: cobol
+
+TERCER GEN
+
+1963,4,5
+
+circuitos integrados, computadores mas compactos (microcomputadoras)
+
+Aparece C (1974), lenguaje de programacion estructurada, mas sencillo y utilizable
+
+CUARTA GEN (1972-1982)
+
+microprocesador (Intel 4004) y chip de memoria, osea la PC
+
+QUINTA GEN, IA
+
+inteligencia artificial
+solucion/optimizacion ante problemas varios
+Machine learning, busca una solucion en base a las reacciones del usuario,
+infiere y/o sugiere algo(Depende de para que fue programado).
+
+SEXTA GEN
+
+microprocesadores para multiples propositos y optimizacion del uso de los microprocesadores
+con respeto a la tarea y su consumo.
+
+cada uno de los dispositivos de hardware que interactuan con el usuario, tienen sus
+propias features
+
+
